@@ -1,0 +1,120 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+ body {
+ 	padding: 0 0;
+ 	margin: 0 0;
+ }
+
+ #left {
+ 	width: 7%;
+ 	height: 1000px;
+ 	background-color: pink;
+ 	left: 0px;
+ 	float: left;
+ }
+
+ #middle {
+ 	width: 89%;
+ 	height: 1000px;
+ 	background-color: blue;
+ 	float: left;
+ }
+
+ #right {
+ 	width: 4%;
+ 	height: 1000px;
+ 	background-color: pink;
+ 	float: left;
+ }
+
+ #yokosoin {
+ 	background-color: aliceblue;
+ 	width: 222px;
+ 	height: 79px;
+ 	top:0px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	overflow: hidden;
+ 	position: relative;
+ 	z-index: 1;
+ }
+
+ #yokosoout {
+ 	background-color: blue;
+ 	width: 100%;
+ 	height: 79px;
+ 	top: 143px;
+  	position: relative;
+ }
+
+ #midhead {
+ 	background-color: purple;
+ 	width: 100%;
+ 	height: 143px;
+ 	top: 0px;
+  	position: relative;
+ }
+
+  #midbtm {
+ 	background-color: orange;
+ 	width: 100%;
+ 	height: 857px;
+ 	top: 0px;
+ 	left: 0px;
+  	position: relative;
+ }
+
+   #midbtmleft {
+ 	background-color: red;
+ 	width: 222px;
+ 	height: 857px;
+ 	float:left;
+ 	top: 0px;
+ 	left: 0px;
+  	position: relative;
+ }
+
+    #midbtmright {
+ 	background-color: gray;
+ 	width: calc(100% - 240px);
+ 	height: 857px;
+ 	top: 0px;
+ 	left: 232px;
+  	position: relative;
+ }
+
+  #thumbcontain {
+  background-color: yellow;
+  width: 100%;
+  height: 700px;
+  top: 36px;
+  left: 0px;
+  position: relative;
+ }
+
+ .style0 {
+  fill: red;
+ }
+
+ .svgg {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+ }
+
+ #tabtop {
+  background-color: white;
+  width: 100%;
+  height: 36px;
+  z-index: 1;
+ }
+
+  #tabtopin {
+  width: calc(100% - 5px);
+  left: 5px;
+  height: 36px;
+  border-bottom: 1px solid red;
+  position: absolute;
+ }
